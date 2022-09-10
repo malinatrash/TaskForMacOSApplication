@@ -1,0 +1,11 @@
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/LogicTests.dll
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/LogicTests.pdb
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/MacOSApp.exe
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/nunit.framework.dll
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/MacOSApp.pdb
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/bin/Debug/nunit.framework.xml
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/obj/Debug/LogicTests.csproj.AssemblyReference.cache
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/obj/Debug/LogicTests.csproj.CoreCompileInputs.cache
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/obj/Debug/LogicTests.csproj.CopyComplete
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/obj/Debug/LogicTests.dll
+/Users/malinatrash/Desktop/MacOSApp/LogicTests/obj/Debug/LogicTests.pdb

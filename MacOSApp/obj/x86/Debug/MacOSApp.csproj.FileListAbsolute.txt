@@ -1,0 +1,16 @@
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/bin/Debug/MacOSApp.exe
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/bin/Debug/MacOSApp.pdb
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/actool/_PartialAppManifest.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/actool/_ProcessedImageAssetsPath.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/coremlc/_PartialAppManifest.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/_ProcessedBundleResourcesPath.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/_ProcessedContentPath.items
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/MacOSApp.csproj.AssemblyReference.cache
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/MacOSApp.csproj.CoreCompileInputs.cache
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/MacOSApp.exe
+/Users/malinatrash/Desktop/MacOSApp/MacOSApp/obj/x86/Debug/MacOSApp.pdb
