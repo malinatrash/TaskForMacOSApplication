@@ -651,7 +651,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Lab 2 C# task if" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -673,11 +673,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="500" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="504" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4LP-UP-UBp">
-                                <rect key="frame" x="184" y="192" width="132" height="16"/>
+                                <rect key="frame" x="184" y="192" width="136" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="0" id="G2x-oV-HXa">
                                     <font key="font" usesAppearanceFont="YES"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -685,8 +685,8 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KK1-99-Lfj">
-                                <rect key="frame" x="201" y="133" width="96" height="21"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="enter number" drawsBackground="YES" id="VRg-Nu-ICP">
+                                <rect key="frame" x="201" y="133" width="100" height="21"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Enter number" drawsBackground="YES" id="VRg-Nu-ICP">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -696,8 +696,8 @@
                                 </connections>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h9R-o8-m4P">
-                                <rect key="frame" x="205" y="56" width="90" height="32"/>
-                                <buttonCell key="cell" type="push" title="calculate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="v2U-gD-S8H">
+                                <rect key="frame" x="205" y="56" width="94" height="32"/>
+                                <buttonCell key="cell" type="push" title="Get result" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="v2U-gD-S8H">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -705,15 +705,39 @@
                                     <action selector="Calculate:" target="XfG-lQ-9wD" id="GzG-OF-3T9"/>
                                 </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e8B-gK-wFQ">
+                                <rect key="frame" x="10" y="20" width="284" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Task: Calculate the square of entered number" id="hLz-2q-JEY">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Us-aW-zwo">
+                                <rect key="frame" x="129" y="192" width="57" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Result = " id="QAl-lo-Xh8">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="7Us-aW-zwo" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="131" id="0Cn-bh-73M"/>
+                            <constraint firstItem="e8B-gK-wFQ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="12" id="4r8-5h-GbY"/>
                             <constraint firstItem="h9R-o8-m4P" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="212" id="557-IF-ZAH"/>
+                            <constraint firstItem="e8B-gK-wFQ" firstAttribute="top" secondItem="h9R-o8-m4P" secondAttribute="bottom" constant="27" id="EVR-JL-UGP"/>
+                            <constraint firstItem="e8B-gK-wFQ" firstAttribute="top" secondItem="7Us-aW-zwo" secondAttribute="bottom" constant="156" id="G8d-cH-R8U"/>
+                            <constraint firstItem="4LP-UP-UBp" firstAttribute="leading" secondItem="7Us-aW-zwo" secondAttribute="trailing" constant="2" id="NCF-B3-WA7"/>
                             <constraint firstAttribute="trailing" secondItem="KK1-99-Lfj" secondAttribute="trailing" constant="203" id="QxV-LA-ghG"/>
                             <constraint firstItem="4LP-UP-UBp" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="186" id="Rr4-ft-CoJ"/>
                             <constraint firstAttribute="trailing" secondItem="4LP-UP-UBp" secondAttribute="trailing" constant="186" id="UbL-i4-Pr7"/>
+                            <constraint firstAttribute="bottom" secondItem="e8B-gK-wFQ" secondAttribute="bottom" constant="20" symbolic="YES" id="aBK-Gj-s5s"/>
                             <constraint firstItem="h9R-o8-m4P" firstAttribute="top" secondItem="KK1-99-Lfj" secondAttribute="bottom" constant="50" id="cX7-wU-WFK"/>
                             <constraint firstItem="KK1-99-Lfj" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="201" id="f2V-5G-4YG"/>
                             <constraint firstItem="KK1-99-Lfj" firstAttribute="top" secondItem="4LP-UP-UBp" secondAttribute="bottom" constant="38" id="n6x-Kf-LcA"/>
+                            <constraint firstItem="7Us-aW-zwo" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="62" id="oHC-Ig-clh"/>
+                            <constraint firstAttribute="trailing" secondItem="e8B-gK-wFQ" secondAttribute="trailing" constant="212" id="twV-pl-P2X"/>
                             <constraint firstItem="4LP-UP-UBp" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="62" id="v1S-Gq-CoM"/>
                             <constraint firstAttribute="trailing" secondItem="h9R-o8-m4P" secondAttribute="trailing" constant="212" id="vgM-WA-j0B"/>
                         </constraints>
@@ -725,7 +749,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85" y="655"/>
+            <point key="canvasLocation" x="75" y="840"/>
         </scene>
     </scenes>
 </document>

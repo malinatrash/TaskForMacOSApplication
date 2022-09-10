@@ -10,8 +10,8 @@ namespace MacOSApp
     {
         private string result = "0";
         private string textFieldValue = "0";
-        private string textFieldDataLink = "textField.txt";
-        private string resultDataLink = "result.txt";
+        private string textFieldDataLink = "/Users/malinatrash/Desktop/MacOSApp/UserData/textField.txt";
+        private string resultDataLink = "/Users/malinatrash/Desktop/MacOSApp/UserData/result.txt";
         
         public ViewController(IntPtr handle) : base(handle)
         {
@@ -20,8 +20,10 @@ namespace MacOSApp
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            
             result = StorageManager.LoadData(resultDataLink);
             textFieldValue = StorageManager.LoadData(textFieldDataLink);
+            
             label.StringValue = result;
             textField.StringValue = textFieldValue;
         }
@@ -39,6 +41,7 @@ namespace MacOSApp
         partial void Calculate(NSButton sender)
         {
             textFieldValue = textField.StringValue;
+            StorageManager.SaveData(textFieldValue, textFieldDataLink);
             StorageManager.SaveData(textFieldValue, textFieldDataLink);
             
             result = Logic.Calculate(textFieldValue);

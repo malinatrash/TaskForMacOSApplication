@@ -9,14 +9,11 @@ namespace MacOSApp
     {
         public static void SaveData(string data, string place)
         {
-            if (data.Count() > 1)
+            if (File.Exists(place))
             {
-                if (File.Exists(place))
-                {
-                    File.Create(place).Close();
-                }
-                File.WriteAllText(place, data);
+                File.Create(place).Close();
             }
+            File.WriteAllText(place, data);
         } 
         public static string LoadData(string place)
         {
